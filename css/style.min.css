@@ -500,12 +500,26 @@ a:hover {
   .thumb-menu img {
     height: 90px; }
   .img-2 {
-    height: 500px; } }
+    height: 500px; }
+
+  .container a h1.brandname{
+	font-size:1rem;
+	}
+ 
+ section#gtco-welcome div.container.section-content.row div.image-main-left{
+	margin-left:10px;
+	margin-right:10px;
+	}
+ }
+
+
 
 /*=====  End of RESPONSIVE  ======*/
 
 
 /* === added ===== */
+
+
 
 .logo-font{
 	
@@ -515,5 +529,23 @@ a:hover {
 .brandname{
 	margin-bottom:0;
 	color:black;
+	font-family:Rajdani;
+font-size:2rem;
+	font-weight:100;
+
+}
+
+
+#foto-with-text{
+	position:relative;
+
+}
+#foto-with-text div.hero-text{
+	position:absolute;
+	left:50%;
+	transform: translateX(-50%);
+	top:50%;
+	color:white;
+	font-size:50px;	
 
 }
